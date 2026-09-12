@@ -1,0 +1,11 @@
+﻿# secrets
+*.pem
+*.key
+.env
+*vault_pass*
+secrets/
+ansible/group_vars/*/vault.yml
+
+# OS junk
+.DS_Store
+Thumbs.db
